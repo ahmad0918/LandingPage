@@ -10,7 +10,6 @@ a.nav-link {
   color: #333; /* Change the color to your preferred color */
 }
 
-
 body {
   box-sizing: border-box;
   padding: 0;
@@ -38,16 +37,17 @@ body {
   gap: 30px;
 }
 
+.container {
+  text-align: center;
+}
+
 .hero-container {
-  display: flex;
   height: 470px;
   padding: 0 10%;
 }
 
 .hero-container > div {
   width: 50%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -241,17 +241,13 @@ footer > div {
   margin: 20px auto; /* Adjust the margin value as needed */
 }
 
-
-
 @media only screen and (max-width: 420px) {
   .hero-container {
-    flex-wrap: wrap;
     height: 100%;
   }
 
   .hero-container > div {
     width: 100%;
-    height: 250px;
   }
 
   .hero-container > img {
